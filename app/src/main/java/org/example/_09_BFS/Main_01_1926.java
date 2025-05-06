@@ -44,7 +44,7 @@ class Main_01_1926 {
         System.out.println(max);
     }
 
-    static int bfs(int x, int y) {
+    private static int bfs(int x, int y) {
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{x, y});
         check[y][x] = true;
